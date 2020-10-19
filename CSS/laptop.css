@@ -1,1 +1,16 @@
-@media only screen and (min-width:801px) {}
+.image2 {
+    display: none;
+}
+
+@media only screen and (min-width: 50px max-width 500px) {}
+
+.image1 {
+    display: none;
+}
+
+.image2 {
+    display: block;
+}
+
+
+}
