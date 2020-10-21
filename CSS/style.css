@@ -1,9 +1,9 @@
 body {
-    font-family: Arial;
+    font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .flex-container {
-    color: white;
+    color: beige;
     background-color: grey;
 }
 
@@ -13,12 +13,12 @@ body {
 }
 
 .left {
-    color: white;
+    color: beige;
     background-color: grey;
 }
 
 .right {
-    color: white;
+    color: beige;
     background-color: grey;
 }
 
@@ -29,13 +29,13 @@ body {
 
 .navbar a {
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .dropdown .dropbtn {
     background-color: darkred;
-    font-family: inherit;
+    font-family: Arial, Helvetica, sans-serif;
     color: Grey;
     font-size: 16px;
 }
