@@ -1,3 +1,76 @@
-ul {
-    list-style: none;
+body {
+    font-family: Arial;
+}
+
+.flex-container {
+    color: white;
+    background-color: grey;
+}
+
+.searchbar {
+    background-color: darkslategray;
+    font-size: 17px;
+}
+
+.left {
+    color: white;
+    background-color: grey;
+}
+
+.right {
+    color: white;
+    background-color: grey;
+}
+
+.navbar {
+    background-color: darkred;
+    font-family: Arial;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.dropdown .dropbtn {
+    background-color: darkred;
+    font-family: inherit;
+    color: Grey;
+    font-size: 16px;
+}
+
+
+/* Add a beige background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: beige;
+}
+
+.dropdown-content {
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+}
+
+
+/* Add a beige background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: beige;
+}
+
+
+/* Show current link on click */
+
+.dropdown-content:active {
+    background-color: red;
+}
+
+footer {
+    background-color: grey;
 }

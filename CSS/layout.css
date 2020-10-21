@@ -7,7 +7,6 @@ body {
     padding: 0;
     min-height: 0;
     min-width: 0;
-    background-color: ivory;
 }
 
 .flex-container {
@@ -23,10 +22,8 @@ body {
     float: right;
     padding: 6px;
     border: none;
-    font-size: 17px;
     margin-top: 8px;
     margin-right: 16px;
-    background-color: darkslategray;
 }
 
 .row {
@@ -34,17 +31,15 @@ body {
 }
 
 .column {
-    flex: 1 0 0;
+    flex: 1 1 auto;
 }
 
 .left {
-    flex: 2 0 0;
-    background-color: ivory;
+    flex: 2 1 auto;
 }
 
 .right {
-    flex: 1 0 0;
-    background-color: ivory;
+    flex: 1 1 auto;
 }
 
 main {
@@ -60,8 +55,6 @@ nav {
 
 .navbar {
     overflow: hidden;
-    background-color: darkred;
-    font-family: Arial;
 }
 
 
@@ -69,9 +62,6 @@ nav {
 
 .navbar a {
     float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -88,22 +78,10 @@ nav {
 /* Dropdown button */
 
 .dropdown .dropbtn {
-    font-size: 16px;
     border: none;
     outline: none;
-    color: Grey;
     padding: 14px 11vw;
-    background-color: darkred;
-    font-family: inherit;
     margin: 0;
-}
-
-
-/* Add a beige background color to navbar links on hover */
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: beige;
 }
 
 
@@ -112,9 +90,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: beige;
     min-width: 11vw;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -123,25 +99,10 @@ nav {
 
 .dropdown-content a {
     float: none;
-    color: black;
     padding: 12px 11vw;
     text-decoration: none;
     display: block;
     text-align: center;
-}
-
-
-/* Add a grey background color to dropdown links on hover */
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-
-/* Show current link on click */
-
-.dropdown-content:active {
-    background-color: red;
 }
 
 
@@ -155,7 +116,15 @@ footer {
     bottom: 0;
     width: 100vw;
     height: 5vh;
-    background-color: grey;
     text-align: center;
     flex-shrink: 0;
+}
+
+
+/* Turns into responsive column */
+
+@media only screen and (max-width: 800px) {
+    .row {
+        flex-flow: column wrap;
+    }
 }
