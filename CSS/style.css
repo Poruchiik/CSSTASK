@@ -65,9 +65,10 @@ body {
 }
 
 
-/* Show current link on click */
+/* Show current link */
 
-.dropdown-content:active {
+.dropdown-content .currentLink {
+    color: royalblue;
     background-color: red;
 }
 
