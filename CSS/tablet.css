@@ -1,0 +1,10 @@
+/* Image switch */
+
+@media only screen and (max-width: 800px) {
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: block;
+    }
+}

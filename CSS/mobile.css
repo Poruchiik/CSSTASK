@@ -1,0 +1,13 @@
+/* Turns into responsive column and image switch */
+
+@media only screen and (max-width: 500px) {
+    .row {
+        flex-flow: column wrap
+    }
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: block;
+    }
+}
