@@ -1,5 +1,10 @@
+html {
+    padding: 0;
+}
+
 body {
     font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: grey;
 }
 
 .flex-container {
