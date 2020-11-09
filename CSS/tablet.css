@@ -1,6 +1,6 @@
 /* Image switch */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 799px) {
     .image1 {
         display: none;
     }

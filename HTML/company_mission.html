@@ -14,16 +14,23 @@
 <body>
     <div class="flex-container">
         <header>
-            <a href="../index.html">
-                <img src="../Images/catalog/bazaar-logo.jpg" alt="Bazaar Ceramics logo" style="float: left;">
-            </a>
-            <div class="searchbar">
-                <input type="text" placeholder="Search..">
-                <!--Searchbar-->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../Images/catalog/bazaar-logo.jpg" alt="Bazaar Ceramics logo" />
+                </a>
             </div>
-            <h1>Bazaar Ceramics</h1>
+            <div id="homeheading">
+                <h1>Bazaar Ceramics</h1>
+            </div>
+            <div id="rightnav">
+                <p>
+                    <mark color="red">Home</mark>About Us Contact Us Where to Buy Member Login
+                </p>
+            </div>
         </header>
-
+        <div id="homebanner">
+            <img src="../Images/banner.jpg" alt="Bazaar Ceramics logo" />
+        </div>
         <nav>
             <div class="navbar">
                 <!--Navigation Menu Dropdowns-->
@@ -32,7 +39,12 @@
                         <a href="company_bg.html">Company Background</a>
                         <a href="company_mission.html" class="currentLink">Mission Statement</a>
                     </div>
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search..">
+                        <!--Searchbar-->
+                    </div>
                 </div>
+
             </div>
         </nav>
 
@@ -53,27 +65,28 @@
                     <li>To showcase technical excellence in ceramic technology</li>
                 </ul>
             </div>
-
-            <div class="column right">
-                <div style="align-self: flex-start;">
-                    <picture class="image1">
-                        <img src="../Images/catalog/bcpot002_small.jpg" alt="Red Ceramic">
-                    </picture>
-                    <picture class="image2">
-                        <img src="../Images/catalog/bcpot002_smaller.jpg" alt="Red Ceramic">
-                    </picture>
+            <aside>
+                <div class="column right">
+                    <div style="align-self: flex-start;">
+                        <picture class="image1">
+                            <img src="../Images/catalog/bcpot002_small.jpg" alt="Red Ceramic">
+                        </picture>
+                        <picture class="image2">
+                            <img src="../Images/catalog/bcpot002_smaller.jpg" alt="Red Ceramic">
+                        </picture>
+                    </div>
+                    <p>Beautiful Red Ceramic piece!</p>
+                    <div style="align-self: flex-end;">
+                        <picture class="image1">
+                            <img src="../Images/catalog/bcpot006_small.jpg" alt="Blue Ceramic">
+                        </picture>
+                        <picture class="image2">
+                            <img src="../Images/catalog/bcpot006_smaller.jpg" alt="Blue Ceramic">
+                        </picture>
+                    </div>
+                    <p>Here are some of Bazaar Ceramics ceramic goods for sale</p>
                 </div>
-                <p>Beautiful Red Ceramic piece!</p>
-                <div style="align-self: flex-end;">
-                    <picture class="image1">
-                        <img src="../Images/catalog/bcpot006_small.jpg" alt="Blue Ceramic">
-                    </picture>
-                    <picture class="image2">
-                        <img src="../Images/catalog/bcpot006_smaller.jpg" alt="Blue Ceramic">
-                    </picture>
-                </div>
-                <p>Here are some of Bazaar Ceramics ceramic goods for sale</p>
-            </div>
+            </aside>
         </div>
     </div>
     <footer>

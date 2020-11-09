@@ -2,11 +2,49 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
+    border: 0;
     min-height: 0;
     min-width: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header div :last-child {
+    margin-left: auto;
+}
+
+header div :nth-child(2) {
+    flex: 1 0 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#rightnav p {
+    align-self: auto;
+}
+
+#homebanner img {
+    width: 100%;
+    height: 20vh;
 }
 
 .flex-container {
@@ -15,7 +53,7 @@ body {
     align-content: stretch;
     align-items: stretch;
     min-width: 0;
-    height: 100%;
+    height: 100vh;
 }
 
 .searchbar {
@@ -42,12 +80,12 @@ body {
     flex: 1 0 0;
 }
 
-main {
-    text-align: center;
-}
-
 nav {
     min-width: 0;
+}
+
+main {
+    text-align: left;
 }
 
 
@@ -61,7 +99,6 @@ nav {
 /* Links inside the navbar */
 
 .navbar a {
-    float: left;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -113,12 +150,10 @@ nav {
 }
 
 footer {
-    position: relative;
-    bottom: 0;
+    margin-top: auto;
     width: 100vw;
     height: 5vh;
     text-align: center;
-    flex-shrink: 0;
 }
 
 .image2 {
