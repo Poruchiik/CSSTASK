@@ -1,6 +1,6 @@
 /* Turns into responsive column and image switch */
 
-@media only screen and (max-width: 499px) {
+@media only screen and (min-width: 50px) and (max-width: 500px) {
     .row {
         flex-flow: column wrap
     }
@@ -8,6 +8,9 @@
         display: none;
     }
     .image2 {
+        display: block;
+    }
+    .image3 {
         display: block;
     }
 }

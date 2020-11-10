@@ -23,10 +23,19 @@
             <div id="homeheading">
                 <h1>Bazaar Ceramics</h1>
             </div>
-            <div id="rightnav">
-                <p>
-                    <mark color="red">Home</mark>About Us Contact Us Where to Buy Member Login
-                </p>
+            <div id="subnav">
+                <ul>
+                    <li>Home</li>
+                    <li class="dropdown"><a href="javascript:void(0)"><mark>About Us</mark></a>
+                        <div class="dropdown-content">
+                            <a href="company_bg.html">Company Background</a>
+                            <a href="company_mission.html">Mission Statement</a>
+                        </div>
+                    </li>
+                    <li>Contact Us</li>
+                    <li>Where to Buy</li>
+                    <li>Member Login</li>
+                </ul>
             </div>
         </header>
 
@@ -37,63 +46,66 @@
         <nav>
             <div class="navbar">
                 <!--Navigation Menu Dropdowns-->
-                <div class="dropdown"><button class="dropbtn">Home</button>
-                    <div class="dropdown-content">
-                        <a href="company_bg.html">Company Background</a>
-                        <a href="company_mission.html" class="currentLink">Mission Statement</a>
-                    </div>
-                    <div class="searchbar">
-                        <input type="text" placeholder="Search..">
-                        <!--Searchbar-->
-                    </div>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Home</a>
+                        <div class="dropdown-content">
+                            <a href="company_bg.html" class="currentLink">Company Background</a>
+                            <a href="company_mission.html">Mission Statement</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search..">
+                    <!--Searchbar-->
                 </div>
             </div>
         </nav>
+        <main>
+            <div class="row">
+                <section>
+                    <div class="column left">
+                        <header>
+                            <h2>Mission Statement</h2>
+                        </header>
+                        <p>Bazaar Ceramics is committed to producing unique, evocative contemporary Ceramic Art of the highest technical quality.
+                        </p>
 
-        <div class="row">
+                        <p>Our Goals:</p>
 
-            <div class="column left">
-                <header>
-                    <h2>Mission Statement</h2>
-                </header>
-                <p>Bazaar Ceramics is committed to producing unique, evocative contemporary Ceramic Art of the highest technical quality.
-                </p>
+                        <ul>
+                            <li>To produce unique hand crafted pieces for the individual and corporate collector</li>
+                            <li>To showcase the best of Australian Ceramic Art and Design</li>
+                            <li>To provide an extensive range of well crafted and designed domestic ware</li>
+                            <li>To showcase technical excellence in ceramic technology</li>
+                        </ul>
+                    </div>
+                </section>
+                <aside>
+                    <div class="column right">
+                        <div style="align-self: flex-start;">
+                            <picture class="image1">
+                                <img src="../Images/catalog/bcpot002_small.jpg" alt="Red Ceramic" />
+                            </picture>
+                            <picture class="image2">
+                                <img src="../Images/catalog/bcpot002_smaller.jpg" alt="Red Ceramic" />
+                            </picture>
+                            <p>Beautiful Red Ceramic piece!</p>
+                        </div>
 
-                <p>Our Goals:</p>
-
-                <ul>
-                    <li>To produce unique hand crafted pieces for the individual and corporate collector</li>
-                    <li>To showcase the best of Australian Ceramic Art and Design</li>
-                    <li>To provide an extensive range of well crafted and designed domestic ware</li>
-                    <li>To showcase technical excellence in ceramic technology</li>
-                </ul>
-            </div>
-
-
-            <div class="column right">
-                <div style="align-self: flex-start;">
-                    <picture class="image1">
-                        <img src="../Images/catalog/bcpot002_small.jpg" alt="Red Ceramic" />
-                    </picture>
-                    <picture class="image2">
-                        <img src="../Images/catalog/bcpot002_smaller.jpg" alt="Red Ceramic" />
-                    </picture>
-                    <p>Beautiful Red Ceramic piece!</p>
+                        <div style="align-self: flex-end;">
+                            <picture class="image1">
+                                <img src="../Images/catalog/bcpot006_small.jpg" alt="Blue Ceramic">
+                            </picture>
+                            <picture class="image2">
+                                <img src="../Images/catalog/bcpot006_smaller.jpg" alt="Blue Ceramic">
+                            </picture>
+                            <p>Here are some of Bazaar Ceramics ceramic goods for sale</p>
+                        </div>
+                </aside>
                 </div>
-
-                <div style="align-self: flex-end;">
-                    <picture class="image1">
-                        <img src="../Images/catalog/bcpot006_small.jpg" alt="Blue Ceramic">
-                    </picture>
-                    <picture class="image2">
-                        <img src="../Images/catalog/bcpot006_smaller.jpg" alt="Blue Ceramic">
-                    </picture>
-                    <p>Here are some of Bazaar Ceramics ceramic goods for sale</p>
-                </div>
-
             </div>
-
-        </div>
+        </main>
     </div>
     <footer>
         <p>Legal | Copyright | Social Media</p>

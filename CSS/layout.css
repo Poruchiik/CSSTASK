@@ -38,10 +38,6 @@ h1 {
     text-align: center;
 }
 
-#rightnav p {
-    align-self: auto;
-}
-
 #homebanner img {
     width: 100%;
     height: 20vh;
@@ -57,7 +53,7 @@ h1 {
 }
 
 .searchbar {
-    float: right;
+    display: flex;
     padding: 6px;
     border: none;
     margin-top: 8px;
@@ -92,6 +88,8 @@ main {
 /* Navbar container */
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
     overflow: hidden;
 }
 
@@ -157,5 +155,9 @@ footer {
 }
 
 .image2 {
+    display: none;
+}
+
+.image3 {
     display: none;
 }

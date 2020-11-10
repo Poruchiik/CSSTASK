@@ -7,12 +7,8 @@ body {
     background-color: grey;
 }
 
-p {
-    font-size: 1vw;
-}
-
 h1 {
-    font-size: 3vw;
+    font-size: 3vmin;
 }
 
 .flex-container {
@@ -22,17 +18,33 @@ h1 {
 
 .searchbar {
     background-color: darkslategray;
-    font-size: 1vw;
+    font-size: 12px;
 }
 
 .left {
-    color: beige;
     background-color: grey;
 }
 
 .right {
-    color: beige;
     background-color: grey;
+}
+
+#subnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#subnav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#subnav li a {
+    text-align: center;
+    text-decoration: none;
 }
 
 .navbar {
@@ -41,7 +53,7 @@ h1 {
 }
 
 .navbar a {
-    font-size: 0.5vw;
+    font-size: 14px;
     color: black;
     text-align: center;
 }
@@ -49,7 +61,8 @@ h1 {
 .dropdown .dropbtn {
     background-color: darkred;
     color: Grey;
-    font-size: 0.5vw;
+    font-size: 14px;
+    text-align: center;
 }
 
 
@@ -83,10 +96,17 @@ h1 {
     background-color: red;
 }
 
-.visitedLink {
-    background-color: beige;
+a:visited .visitedLink {
+    background-color: yellow;
 }
 
 footer {
-    background-color: navy;
+    background-color: beige;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    color: #000
 }

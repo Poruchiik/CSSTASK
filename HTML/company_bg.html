@@ -22,33 +22,53 @@
             <div id="homeheading">
                 <h1>Bazaar Ceramics</h1>
             </div>
-            <div id="rightnav">
-                <p>
-                    <mark color="red">Home</mark>About Us Contact Us Where to Buy Member Login
-                </p>
+            <div id="subnav">
+                <ul>
+                    <li>Home</li>
+                    <li class="dropdown"><a href="javascript:void(0)"><mark>About Us</mark></a>
+                        <div class="dropdown-content">
+                            <a href="company_bg.html">Company Background</a>
+                            <a href="company_mission.html">Mission Statement</a>
+                        </div>
+                    </li>
+                    <li>Contact Us</li>
+                    <li>Where to Buy</li>
+                    <li>Member Login</li>
+                </ul>
             </div>
         </header>
         <div id="homebanner">
-            <img src="../Images/banner.jpg" alt="Bazaar Ceramics logo" />
+            <picture class="image1">
+                <img src="../Images/banner.jpg" alt="Bazaar Ceramics logo" />
+            </picture>
+            <picture class="image2">
+                <img src="#">
+            </picture>
         </div>
         <nav>
+
             <div class="navbar">
                 <!--Navigation Menu Dropdowns-->
-                <div class="dropdown"><button class="dropbtn">Home</button>
-                    <div class="dropdown-content">
-                        <a href="company_bg.html" class="currentLink">Company Background</a>
-                        <a href="company_mission.html">Mission Statement</a>
-                    </div>
-                    <div class="searchbar">
-                        <input type="text" placeholder="Search..">
-                        <!--Searchbar-->
-                    </div>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Home</a>
+                        <div class="dropdown-content">
+                            <a href="company_bg.html" class="currentLink">Company Background</a>
+                            <a href="company_mission.html">Mission Statement</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search..">
+                    <!--Searchbar-->
                 </div>
             </div>
+
         </nav>
 
         <main>
             <div class="row">
+
                 <div class="column left">
                     <section>
                         <header>
@@ -68,16 +88,31 @@
                         <p>Bazaar Ceramics also produce unique, individually designed domestic ware, including full dinner sets and ovenware.</p>
                     </section>
                 </div>
+
                 <aside>
                     <div class="column right">
                         <div style="align-self: flex-start;">
-                            <img src="../Images/gallery/bazaar_building.jpg" alt="Bazaar Ceramics building">
+                            <picture class="image1">
+                                <img src="../Images/catalog/bcpot012_small.jpg" alt="Red Ceramic" />
+                            </picture>
+                            <picture class="image2">
+                                <img src="../Images/catalog/bcpot012_smaller.jpg" alt="Red Ceramic" />
+                            </picture>
+                            <p>Beautiful Red Ceramic piece!</p>
                         </div>
+
                         <div style="align-self: flex-end;">
-                            <img src="../Images/gallery/bazaar_gallery.jpg" alt="Bazaar Ceramics gallery">
+                            <picture class="image1">
+                                <img src="../Images/catalog/bcpot010_small.jpg" alt="Blue Ceramic">
+                            </picture>
+                            <picture class="image2">
+                                <img src="../Images/catalog/bcpot010_smaller.jpg" alt="Blue Ceramic">
+                            </picture>
+                            <p>Here are some of Bazaar Ceramics ceramic goods for sale</p>
                         </div>
                     </div>
                 </aside>
+
             </div>
         </main>
     </div>
