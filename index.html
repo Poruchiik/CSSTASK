@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazaar Ceramics</title>
@@ -9,12 +10,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
+
 </head>
 
 <body>
+
     <div class="flex-container">
 
-        <header>
+        <div class="header">
 
             <div class="logo">
                 <a href="index.html">
@@ -27,9 +30,10 @@
             </div>
 
             <div id="subnav">
+
                 <ul>
-                    <li>Home</li>
-                    <li class="dropdown"><a href="javascript:void(0)"><mark>About Us</mark></a>
+                    <li><mark>Home</mark></li>
+                    <li class="dropdown"><a href="javascript:void(0)">About Us</a>
                         <div class="dropdown-content">
                             <a href="html/company_bg.html">Company Background</a>
                             <a href="html/company_mission.html">Mission Statement</a>
@@ -39,16 +43,18 @@
                     <li>Where to Buy</li>
                     <li>Member Login</li>
                 </ul>
+
             </div>
 
-        </header>
-
-        <div id="homebanner">
-            <img src="Images/banner.jpg" alt="Bazaar Ceramics banner">
         </div>
 
         <nav>
-            <div class="navbar">
+
+            <div id="homebanner">
+                <img src="Images/banner.jpg" alt="Bazaar Ceramics banner">
+            </div>
+
+            <div class="navbar row">
                 <!--Navigation Menu Dropdowns-->
                 <ul>
                     <li class="dropdown">
@@ -59,47 +65,87 @@
                         </div>
                     </li>
                 </ul>
+
                 <div class="searchbar">
                     <input type="text" placeholder="Search..">
                     <!--Searchbar-->
                 </div>
+
             </div>
+
         </nav>
 
-        <main>
+        <div class="header">
+            <h2 style="text-align: center;">Discounted Items</h2>
+        </div>
 
-            <div class="content">
-                <!-- Content table-->
-                <table>
-                    <tr>
-                        <th colspan="3">
-                            Discounted Items
-                        </th>
-                    </tr>
-                    <tr>
-                        <td><img src=" " alt="Red bowl $50" /></td>
-                        <td><img src=" " alt="White bowl $65" /></td>
-                        <td><img src=" " alt="Blue bowl $70" /></td>
-                    </tr>
-                    <tr class="textaligncenter">
-                        <td>
-                            <p>Red Bowl $50</p>
-                        </td>
-                        <td>
-                            <p>White Bowl $65</p>
-                        </td>
-                        <td>
-                            <p>Blue Bowl $70</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+        <div class="row">
 
-        </main>
+            <figure>
+
+                <picture class="image1">
+                    <img src="Images/catalog/bcpot002_small.jpg" alt="Red Ceramic" />
+                    <figcaption>Red Ceramic $60</figcaption>
+                </picture>
+
+                <picture class="image2">
+                    <img src="Images/catalog/bcpot002_smaller.jpg" alt="Grey Ceramic">
+                    <figcaption>Grey Ceramic $50</figcaption>
+                </picture>
+
+                <picture class="image3">
+                    <img src="Images/catalog/bcpot002_thumb.jpg" alt="Blue Ceramic">
+                    <figcaption>Blue Ceramic $60</figcaption>
+                </picture>
+
+            </figure>
+
+            <figure>
+
+                <picture class="image1">
+                    <img src="Images/catalog/bcpot010_small.jpg" alt="Blue Ceramic" />
+                    <figcaption>Grey Ceramic $40</figcaption>
+                </picture>
+
+                <picture class="image2">
+                    <img src="Images/catalog/bcpot010_smaller.jpg" alt="Grey Ceramic" />
+                    <figcaption>Grey Ceramic $50</figcaption>
+                </picture>
+
+                <picture class="image3">
+                    <img src="Images/catalog/bcpot010_thumb.jpg" alt="Blue Ceramic" />
+                    <figcaption>Grey Ceramic $60</figcaption>
+                </picture>
+
+            </figure>
+
+            <figure>
+
+                <picture class="image1">
+                    <img src="Images/catalog/bcpot006_small.jpg" alt="Blue Ceramic" />
+                    <figcaption>Blue Ceramic $40</figcaption>
+                </picture>
+
+                <picture class="image2">
+                    <img src="Images/catalog/bcpot006_smaller.jpg" alt="Blue Ceramic" />
+                    <figcaption>Blue Ceramic $50</figcaption>
+                </picture>
+
+                <picture class="image3">
+                    <img src="Images/catalog/bcpot006_thumb.jpg" alt="Blue Ceramic" />
+                    <figcaption>Blue Ceramic $60</figcaption>
+                </picture>
+
+            </figure>
+
+        </div>
+
+        <footer>
+            <p>Legal | Copyright | Social Media </p>
+        </footer>
+
     </div>
-    <footer>
-        <p>Legal | Copyright | Social Media </p>
-    </footer>
+
 </body>
 
 </html>

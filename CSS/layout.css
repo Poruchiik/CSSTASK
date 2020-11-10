@@ -2,15 +2,7 @@
     box-sizing: border-box;
 }
 
-html,
 body {
-    overflow-x: hidden;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
     min-height: 0;
     min-width: 0;
 }
@@ -20,32 +12,28 @@ img {
     height: auto;
 }
 
-header {
+.header {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
 }
 
-header div :last-child {
+.header div :last-child {
     margin-left: auto;
 }
 
-header div :nth-child(2) {
+.header div :nth-child(2) {
     flex: 1 0 0;
 }
 
-h1 {
-    text-align: center;
-}
-
 #homebanner img {
-    width: 100%;
+    width: 100vw;
     height: 20vh;
 }
 
 .flex-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-content: stretch;
     align-items: stretch;
     min-width: 0;
@@ -62,6 +50,7 @@ h1 {
 
 .row {
     display: flex;
+    flex-flow: row;
 }
 
 .column {
@@ -69,7 +58,7 @@ h1 {
 }
 
 .left {
-    flex: 2 0 0;
+    flex: 3 0 0;
 }
 
 .right {
@@ -77,11 +66,7 @@ h1 {
 }
 
 nav {
-    min-width: 0;
-}
-
-main {
-    text-align: left;
+    width: 100vw;
 }
 
 
@@ -97,7 +82,7 @@ main {
 /* Links inside the navbar */
 
 .navbar a {
-    padding: 14px 16px;
+    padding: 0 0;
     text-decoration: none;
 }
 
@@ -115,7 +100,7 @@ main {
 .dropdown .dropbtn {
     border: none;
     outline: none;
-    padding: 14px 11vw;
+    padding: 0 1vw;
     margin: 0;
 }
 
@@ -125,7 +110,7 @@ main {
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 11vw;
+    min-width: 1vw;
     z-index: 1;
 }
 
@@ -134,7 +119,7 @@ main {
 
 .dropdown-content a {
     float: none;
-    padding: 12px 11vw;
+    padding: 0 1vw;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -150,7 +135,7 @@ main {
 footer {
     margin-top: auto;
     width: 100vw;
-    height: 5vh;
+    height: 7vh;
     text-align: center;
 }
 
@@ -160,4 +145,15 @@ footer {
 
 .image3 {
     display: none;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+figcaption {
+    align-self: flex-end;
+    text-align: left;
 }
