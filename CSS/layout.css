@@ -78,6 +78,22 @@ nav {
     overflow: hidden;
 }
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li a,
+.dropbtn {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 
 /* Links inside the navbar */
 
@@ -100,7 +116,8 @@ nav {
 .dropdown .dropbtn {
     border: none;
     outline: none;
-    padding: 0 1vw;
+    padding: 12px 1vw;
+    min-width: 25vw;
     margin: 0;
 }
 
@@ -110,7 +127,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 1vw;
+    min-width: 25vw;
     z-index: 1;
 }
 
@@ -119,10 +136,10 @@ nav {
 
 .dropdown-content a {
     float: none;
-    padding: 0 1vw;
+    padding: 12px 1vw;
     text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 

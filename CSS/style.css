@@ -1,121 +1,107 @@
-html {
-    padding: 0;
-}
-
-body {
-    font-family: Arial, Arial, Helvetica, sans-serif;
-    background-color: grey;
-}
-
-h1 {
-    font-size: 3vw;
-    text-align: center;
-}
-
-h2 {
-    font-size: 2vw;
-}
-
-li {
-    font-size: 3vmin;
-}
-
-p {
-    font-size: 3vmin;
-}
-
-.flex-container {
-    color: beige;
-    background-color: grey;
-}
-
-.searchbar {
-    background-color: darkslategray;
-    font-size: 12px;
-}
-
-.left {
-    background-color: grey;
-}
-
-.right {
-    background-color: grey;
-}
-
-#subnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-#subnav li {
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-#subnav li a {
-    text-align: center;
-    text-decoration: none;
-}
-
-.navbar {
-    background-color: darkred;
-    font-family: Arial;
-}
-
-.navbar a {
-    font-size: 14px;
-    color: black;
-    text-align: center;
-}
-
-.dropdown .dropbtn {
-    background-color: darkred;
-    color: Grey;
-    font-size: 14px;
-    text-align: center;
-}
-
-
-/* Add a beige background color to navbar links on hover */
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: beige;
-}
-
-.dropdown-content {
-    background-color: brown;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content a {
-    color: black;
-}
-
-
-/* Add a beige background color to dropdown links on hover */
-
-.dropdown-content a:hover {
-    background-color: beige;
-}
-
-
-/* Show current link */
-
-.currentLink {
-    background-color: red;
-}
-
-footer {
-    background-color: beige;
-}
-
-footer p {
-    text-align: center;
-    margin: 0;
-    padding: 1em;
-    color: #000
-}
+    html {
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        background-color: grey;
+    }
+    
+    h1 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 3vmin;
+    }
+    
+    li {
+        font-size: 2vmin;
+    }
+    
+    p {
+        font-size: 2.5vmin;
+    }
+    
+    .flex-container {
+        color: beige;
+        background-color: grey;
+    }
+    
+    .searchbar {
+        font-size: 14px;
+    }
+    
+    .left {
+        background-color: grey;
+    }
+    
+    .right {
+        background-color: grey;
+    }
+    
+    #subnav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #subnav li {
+        float: left;
+        border-right: 1px solid #bbb;
+        text-decoration: none;
+    }
+    
+    .navbar {
+        background-color: darkred;
+        font-family: Arial;
+    }
+    
+    .navbar a {
+        font-size: 2.5vmin;
+        text-align: center;
+    }
+    
+    .dropdown .dropbtn {
+        background-color: darkred;
+        color: Grey;
+        font-size: 2.5vmin;
+        text-align: center;
+    }
+    /* Add a beige background color to navbar links on hover */
+    
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: beige;
+    }
+    
+    .dropdown-content {
+        background-color: brown;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dropdown-content a {
+        color: black;
+    }
+    /* Add a beige background color to dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        background-color: beige;
+    }
+    /* Show current link */
+    
+    .currentLink {
+        background-color: red;
+    }
+    
+    footer {
+        background-color: beige;
+    }
+    
+    footer p {
+        text-align: center;
+        margin: 0;
+        padding: 1em;
+        color: #000
+    }

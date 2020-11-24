@@ -1,13 +1,10 @@
 /* Turns into responsive column and image switch */
 
 @media only screen and (max-width: 500px) {
-    .row {
-        flex-flow: column wrap
+    main .row {
+        flex-flow: column wrap;
     }
     #homebanner {
-        display: none;
-    }
-    #subnav {
         display: none;
     }
     .image1 {
