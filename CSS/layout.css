@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    min-height: 0;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
     min-width: 0;
 }
 
@@ -23,12 +28,21 @@ img {
 }
 
 .header div :nth-child(2) {
-    flex: 1 0 0;
+    flex: 1;
 }
 
 #homebanner img {
-    width: 100vw;
+    display: flex;
+    min-width: calc(100vw - 34px);
     height: 20vh;
+}
+
+.searchbar {
+    display: flex;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
 }
 
 .flex-container {
@@ -40,29 +54,22 @@ img {
     height: 100vh;
 }
 
-.searchbar {
-    display: flex;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-}
-
 .row {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    min-width: calc(100vw- 34px);
 }
 
 .column {
-    flex: 1 0 0;
+    flex: 1;
 }
 
 .left {
-    flex: 3 0 0;
+    flex: 3;
 }
 
 .right {
-    flex: 1 0 0;
+    flex: 1;
 }
 
 nav {
@@ -83,7 +90,6 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 .navbar li a,
