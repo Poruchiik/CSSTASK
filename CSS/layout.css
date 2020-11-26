@@ -28,7 +28,7 @@ img {
 }
 
 .header div :nth-child(2) {
-    flex: 1;
+    flex: 1 0 0;
 }
 
 #homebanner img {
@@ -47,11 +47,15 @@ img {
 
 .flex-container {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    width: calc(100vw - 34px);
+    height: 100vh;
     flex-flow: row wrap;
     align-content: stretch;
     align-items: stretch;
-    min-width: 0;
-    height: 100vh;
 }
 
 .row {
@@ -60,16 +64,12 @@ img {
     min-width: calc(100vw- 34px);
 }
 
-.column {
-    flex: 1;
-}
-
 .left {
-    flex: 3;
+    flex: 3 0 0;
 }
 
 .right {
-    flex: 1;
+    flex: 1 0 0;
 }
 
 nav {
