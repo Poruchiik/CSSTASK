@@ -61,7 +61,7 @@ img {
 .row {
     display: flex;
     flex-flow: row wrap;
-    min-width: calc(100vw- 34px);
+    min-width: calc(100vw - 34px);
 }
 
 .left {
